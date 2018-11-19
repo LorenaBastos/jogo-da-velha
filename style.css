@@ -1,0 +1,39 @@
+body{
+    font-family: 'Fredoka One', cursive;
+    background-color:#4B0082;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+h1{
+   font-size: 60px;
+}
+#mostrador{
+    margin-top: -20px;
+    margin-bottom: 17px;
+}
+
+h2{
+    float: left;
+    margin-right: 15px;
+}
+
+img{
+    border: 0;
+    height: 68px;
+}
+
+.tabuleiro{
+    width: 382px;
+    height: 382px;
+    padding-left: 24px;
+   
+}
+
+.espaco{
+    width: 100px;
+    height: 120px;
+    border: 5px solid black;
+    background-color: white;
+    float: left;
+}
